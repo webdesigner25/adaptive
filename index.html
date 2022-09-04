@@ -12,7 +12,7 @@
     </head>
     <body>
         <div class="wrapper  ">
-            <header class="header">
+            <header class="header" id="header">
             <div class="logo">
                 <a href="https://www.w3schools.com" class="link">
                     <svg width="68" height="59" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M68 19.667 34.056 0 0 19.667V59l68-39.333ZM68 59V25.633L38.923 42.208 68 59Z" fill="#005BBB"/><path fill-rule="evenodd" clip-rule="evenodd" d="m35.633 45.366-23.383 13.5-.5-.866 23.383-13.5.5.866Z" fill="#005BBB"/></svg>
@@ -29,14 +29,14 @@
                     contact us
                 </a>
             </nav>
-                <button class="btn-burger">
+                <button class="btn-burger" id="btn-burger">
                     <svg width="48" height="31" viewBox="0 0 48 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0H48V5H0V0Z" fill="#005BBB"/>
                     <path d="M0 13H48V18H0V13Z" fill="#005BBB"/>
                     <path d="M48 26H0V31H48V26Z" fill="#005BBB"/>
                     </svg>
                 </button>
-                <button class="btn-close">
+                <button class="btn-close" id="btn-close">
                     <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9996 15.9646L3.79676 0.761719L0.26123 4.29725L15.4641 19.5001L0.261363 34.7029L3.7969 38.2384L18.9996 23.0357L34.2024 38.2384L37.7379 34.7028L22.5352 19.5001L37.738 4.29726L34.2025 0.761727L18.9996 15.9646Z" fill="white"/>
                     </svg>
@@ -72,6 +72,7 @@
         <script type="text/javascript" src="slick/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="slick/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript">
                 $(document).ready(function(){
                   $('.gallery').slick({
